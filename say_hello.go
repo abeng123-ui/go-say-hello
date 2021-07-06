@@ -1,3 +1,5 @@
-module github.com/abeng123-ui/go-say-hello
+package go_say_hello
 
-go 1.15
+func SayHello() string {
+	return "Hello"
+}
